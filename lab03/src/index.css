@@ -1,0 +1,86 @@
+body{
+  font-family: 'Playfair Display', serif;
+  background-color: rgb(215, 237, 255);
+}
+h1{
+  font-family: 'Playfair Display SC', serif;
+}
+
+.app-container{
+  display: flex;
+  flex-direction: column;
+  padding: 2em 0;
+  margin: 0 3vw;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 2em/3em;
+}
+
+.color-button-container{
+  text-align: right;
+  padding: 10px;
+  margin-right: 1vw;
+}
+
+.title{
+  text-align: center;
+  padding: 20px 0;
+  cursor: pointer;
+}
+.clicked{
+  background-image: url('./components/media/emo_fantasticbeasts_01.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 40vw 24vh;
+  color: rgba(255, 255, 255, 0);
+  background-color: black;
+}
+.subheader{
+  font-size: 20px;
+}
+
+.individual-card-container{
+  padding: 10px;
+  background-color: pink;
+  border-radius: 3%;
+}
+.individual-card-container:hover{
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.5);
+}
+
+.card{
+  width: 18rem;
+}
+.card-header{
+  text-align: center;
+}
+.card-img{
+  height: 13em;
+}
+
+.horned-beast-cards{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px 40px;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+.button-container{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+footer{
+  color: rgba(0, 0, 0, 0.7);
+  margin-left: 3vw;
+}
+
+.modal-body-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+.modal-image{
+  border-radius: 5%;
+}
