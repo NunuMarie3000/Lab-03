@@ -17,7 +17,7 @@ export default class App extends Component {
           title: '',
           description: '',
           image: '',
-          // isSelected: false
+          horns: ''
         }
       ],
       isSelected: false,
@@ -25,7 +25,7 @@ export default class App extends Component {
   }
 
   updateState = (beast) =>{
-    const newState = {title: beast.title, description: beast.description, image: beast.image, }
+    const newState = {title: beast.title, description: beast.description, image: beast.image, horns: beast.horns}
     this.setState({beast: [newState], isSelected: true})
   }
 

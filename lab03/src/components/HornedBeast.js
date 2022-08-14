@@ -29,7 +29,7 @@ export default class HornedBeast extends Component {
   }
 
   sendInfo = () =>{
-    this.props.updateState({title: this.props.title, description: this.props.description, image: this.props.image_url})
+    this.props.updateState({title: this.props.title, description: this.props.description, image: this.props.image_url, horns: this.props.horns})
   }
 
   render() {
