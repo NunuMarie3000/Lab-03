@@ -35,9 +35,9 @@ export default class HornedBeast extends Component {
   render() {
     return (
         <div  className='individual-card-container'>
-          <Card onClick={this.sendInfo}>
+          <Card>
         <Card.Header><div><i class='fa-solid fa-heart'></i> {this.state.likes} Favorites</div></Card.Header>
-        <Card.Img className='card-img' variant="top" src={this.props.image_url} />
+        <Card.Img onClick={this.sendInfo} className='card-img' variant="top" src={this.props.image_url} />
         <Card.Body>
           <Card.Title>{this.props.title}</Card.Title>
           <Card.Text>
