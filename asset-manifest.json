@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Lab-03/static/css/main.d3a428b0.css",
+    "main.js": "/Lab-03/static/js/main.a9b2fbb6.js",
+    "static/js/787.ba3c1114.chunk.js": "/Lab-03/static/js/787.ba3c1114.chunk.js",
+    "static/media/emo_fantasticbeasts_01.jpg": "/Lab-03/static/media/emo_fantasticbeasts_01.69243595596c21e947ae.jpg",
+    "index.html": "/Lab-03/index.html",
+    "main.d3a428b0.css.map": "/Lab-03/static/css/main.d3a428b0.css.map",
+    "main.a9b2fbb6.js.map": "/Lab-03/static/js/main.a9b2fbb6.js.map",
+    "787.ba3c1114.chunk.js.map": "/Lab-03/static/js/787.ba3c1114.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d3a428b0.css",
+    "static/js/main.a9b2fbb6.js"
+  ]
+}
